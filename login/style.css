@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: Century Gothic;
+    background-image: url(1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 30%;
+	left: 50%
+	transform translate(-50%, -50%);
+	background: #523333
+	text-align: center;
+}
+
+.title{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.logo img{
+ 	float: left;
+ 	width: 150px;
+ 	height: auto;
+ }
